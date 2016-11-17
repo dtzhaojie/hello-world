@@ -7,7 +7,13 @@ namespace PlanningSpace.Portfolio.OData.Models
 {
     public class SummaryValue
     {
-        public int Id
+        public string Name
+        {
+            get;
+            set;
+        }
+
+        public string Value
         {
             get;
             set;

@@ -14,7 +14,6 @@ namespace PlanningSpace.Portfolio.OData.Models
             set;
         }
 
-        [Required]
         public string Name
         {
             get;
@@ -32,5 +31,11 @@ namespace PlanningSpace.Portfolio.OData.Models
             get;
             set;
         }
+
+        public List<Property> Properties
+        {
+            get;
+            set;
+        } 
     }
 }

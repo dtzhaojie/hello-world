@@ -14,7 +14,6 @@ namespace PlanningSpace.Portfolio.OData.Models
             set;
         }
 
-        [Required]
         public string Name
         {
             get;
